@@ -39,7 +39,7 @@
   #define CS 1
   #define RST 2
 #else
-  #define CS 12
+  #define CS 9
   #define RST 6
 #endif
 #define DC 4
@@ -82,7 +82,7 @@
 #else
   #define GREEN_LED 11
 #endif
-#define BLUE_LED 9
+#define BLUE_LED 12
 #define TX_LED 30
 #define RX_LED 17
 
