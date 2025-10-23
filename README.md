@@ -1,4 +1,13 @@
-# Arduboy homemade package
+# Arduboy homemade package for Antboard
+Antboard Arduboy Pin Definition  that is different from Original Build
+
+```
+#define CS 9
+#define BLUE_LED 12
+#define PIN_SPEAKER_2 3
+```
+
+#
 Arduino IDE board package for Arduboy and homemade versions with the following advantages:
 * Single install
 * Includes all Arduboy libraries with support for alternate displays and wiring
