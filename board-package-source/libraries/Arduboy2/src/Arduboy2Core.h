@@ -46,9 +46,9 @@
   #define RST_PORT PORTD
   #define RST_BIT PORTD1
 #else
-  #define PIN_CS 12       // Display CS Arduino pin number
-  #define CS_PORT PORTD   // Display CS port
-  #define CS_BIT PORTD6   // Display CS physical bit number
+  #define PIN_CS 9        // Display CS Arduino pin number
+  #define CS_PORT PORTB   // Display CS port
+  #define CS_BIT PORTB5   // Display CS physical bit number
 
   #define PIN_RST 6       // Display reset Arduino pin number
   #define RST_PORT PORTD  // Display reset port
@@ -111,7 +111,7 @@
 #else
   #define GREEN_LED 11 /**< The pin number for the green color in the RGB LED. */
 #endif
-#define BLUE_LED 9   /**< The pin number for the blue color in the RGB LED. */
+#define BLUE_LED 12   /**< The pin number for the blue color in the RGB LED. */
 
 #define RED_LED_PORT PORTB
 #define RED_LED_BIT PORTB6
